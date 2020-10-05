@@ -1,0 +1,291 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  background-color: #4e4b52ab;
+  align-items: center;
+}
+
+.menu__logo {
+  padding: 5px;
+  padding-left: 40px;
+}
+
+.menu__fish {
+  display: flex;
+  padding-left: 100px;
+}
+
+.menu__fish_01 {
+  display: flex;
+  font-size: 35px;
+  font-family: "Do Hyeon";
+  text-align: center;
+  padding-right: 20px;
+}
+
+.crotch {
+  padding: 8px 8px;
+}
+
+.crotch_name {
+  padding-left: 50px;
+}
+
+.crotch_Btn {
+  top: 5px;
+  color: white;
+  font-family: "Do Hyeon";
+  font-size: 35px;
+  background: none;
+  border: 0;
+  outline: 0;
+}
+
+.crotch_Btn:hover {
+  color: #e69b14;
+}
+
+#crotch_sea {
+  word-spacing: 70px;
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+}
+
+.anchovy {
+  padding: 8px 12px;
+}
+
+.anchovy_name {
+  padding-left: 50px;
+}
+
+.anchovy_Btn {
+  top: 5px;
+  color: white;
+  font-family: "Do Hyeon";
+  font-size: 35px;
+  background: none;
+  border: 0;
+  outline: 0;
+}
+
+.anchovy_Btn:hover {
+  color: #e69b14;
+}
+
+#anchovy_sea {
+  word-spacing: 70px;
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+}
+
+.menu__fish_02 {
+  display: flex;
+  list-style: none;
+  font-size: 35px;
+  font-family: "Do Hyeon";
+  text-align: center;
+  margin: 0;
+  padding-top: 0;
+  padding: 8px 12px;
+}
+
+a:hover {
+  color: #e69b14;
+}
+
+.menu__fish_02 li {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+#big_div {
+  display: flex;
+}
+
+#map {
+  top: 20px;
+  left: 100px;
+  display: flex;
+  width: 500px;
+  height: 650px;
+}
+
+#box_ABC {
+  margin-left: 170px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff6b;
+}
+
+#chart_div {
+  margin: 16px 24px;
+  width: 700px;
+  height: 350px;
+}
+
+.box_A_01 {
+  display: flex;
+  margin: 8px 12px;
+}
+
+.box_B {
+  align-items: center;
+  margin-left: 30px;
+  font-family: "Nanum Gothic Bold 700";
+  font-size: 20px;
+  color: black;
+}
+
+table.type09 {
+  border-width: thick;
+  text-align: center;
+  line-height: 1;
+  color: black;
+  font-family: "Nanum Gothic Bold 700";
+  margin-left: 60px;
+}
+table.type09 thead th {
+  padding: 5px;
+  font-weight: bold;
+  vertical-align: top;
+  color: white;
+  font-family: "Nanum Gothic Bold 700";
+  border-bottom: 3px solid #aeaeae;
+}
+table.type09 tbody th {
+  width: 100px;
+  padding: 5px;
+  vertical-align: top;
+  border-bottom: 1px solid #484848;
+}
+table.type09 td {
+  width: 100px;
+  padding: 5px;
+  vertical-align: top;
+  border-bottom: 1px solid #484848;
+}
+
+@media screen and (max-width: 1515px) {
+  .navbar {
+    align-items: flex-start;
+  }
+
+  .menu__logo {
+    display: none;
+  }
+
+  .menu__fish {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .menu__fish_01 {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .crotch {
+    padding-bottom: 0;
+  }
+
+  .anchovy {
+    padding: 0;
+  }
+
+  .crotch_name {
+    padding-left: 0;
+  }
+
+  .crotch_Btn {
+    font-size: 25px;
+  }
+
+  #crotch_sea {
+    font-size: 22px;
+    word-spacing: 10px;
+    position: static;
+  }
+
+  .anchovy_name {
+    padding-left: 0;
+  }
+
+  .anchovy_Btn {
+    font-size: 25px;
+    padding-top: 18px;
+  }
+
+  #anchovy_sea {
+    font-size: 22px;
+    word-spacing: 10px;
+    position: static;
+  }
+
+  .menu__fish_02 {
+    flex-direction: column;
+    font-size: 25px;
+  }
+
+  .menu__fish_02 li {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  #big_div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #map {
+    left: 0;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 650px;
+  }
+
+  #chart_div {
+    margin: 0;
+    width: 400px;
+    height: 330px;
+  }
+
+  .box_A {
+    display: inline;
+  }
+
+  #box_ABC {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box_B {
+    margin-left: 0;
+  }
+
+  table.type09 {
+    margin-left: 0;
+  }
+
+  .box_A_01 {
+    flex-direction: column;
+    align-items: center;
+  }
+}

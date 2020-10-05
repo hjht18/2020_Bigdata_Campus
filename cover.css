@@ -1,0 +1,100 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.title_background_box {
+  display: flex;
+  position: absolute;
+  left: 400px;
+  top: 200px;
+}
+
+.image {
+  position: left;
+  padding-top: 70px;
+  padding-right: 30px;
+}
+
+.logo {
+  margin-top: 90px;
+}
+
+.logo_01 {
+  margin: 0px;
+  font-family: "Segoe UI Black";
+  font-size: 35px;
+  color: white;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.logo_02 {
+  display: flex;
+  position: relative;
+  left: 80px;
+}
+
+.logo_02_text {
+  margin: 0px;
+  font-family: "Arial";
+  font-size: 25px;
+  color: #90caf9;
+}
+
+.icon {
+  padding-left: 30px;
+  padding-top: 8px;
+}
+
+i:hover {
+  color: #e69b14;
+}
+
+i {
+  font-size: 40px;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1515px) {
+  h1,
+  h2 {
+    display: none;
+  }
+
+  .title_background_box {
+    width: 100%;
+    align-items: center;
+    position: static;
+  }
+
+  .image {
+    width: 100%;
+    padding-right: 80px;
+    padding-top: 250px;
+    padding-left: 100px;
+  }
+
+  .icon {
+    padding: 0;
+  }
+
+  .logo {
+    width: 100%;
+    margin-top: 250px;
+  }
+
+  .logo_02 {
+    width: 100%;
+    left: 0px;
+  }
+}
